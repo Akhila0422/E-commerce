@@ -1,0 +1,528 @@
+*{
+
+    margin: 0;
+
+    pad: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+.container{
+
+    height: 100vh;
+
+    width: 100vw;
+
+    overflow-x: hidden;
+
+    background: rgb(158,155,204);
+
+    background: linear-gradient(90deg, rgba(158,155,204,1) 0%, rgba(161,161,255,1) 100%, rgba(87,169,185,1) 100%);
+
+}
+
+.navContainer{
+
+    width: 100vw;
+
+    background-color: white;
+
+    /* border: 1px solid black; */
+
+    /* border-radius:20px ; */
+
+    min-height: 40px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    position: relative;
+
+
+}
+
+
+nav{
+
+    width: 100%;
+
+    overflow-x: none;
+
+}
+
+
+#navList{
+
+    width: 100%;
+
+    padding: 20px;
+
+    list-style: none;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+
+}
+
+
+.login{
+
+    margin-right: -10px;
+
+}
+
+
+#navLogo{
+
+    width: 15rem;
+
+    height: 5rem;
+
+    margin-left: 100px;
+
+   
+
+
+}
+
+
+#navItems{
+
+    display: flex;
+
+    gap: 50px;
+
+    /* justify-content: space-evenly;
+
+    align-items: center; */
+
+    margin-right: 100px;
+
+    margin-left: 100px;
+
+}
+
+
+a{
+
+    text-decoration: none;
+
+    color: black;
+
+    font-size: 2rem;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+.shopping{
+
+   position: relative;
+
+    margin: 20px;
+
+    /* margin-right: 20px; */
+
+    width: 100%;
+
+    min-height: 126px;
+
+    border: 1px solid black;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    padding: 16px 16px 16px 24px;
+
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    width: 97.5%;
+
+    color: #111112;
+
+    background-color: #fff;
+
+}
+
+
+#Sitem{
+
+    min-width: 90px;
+
+    position: relative;
+
+    /* padding: 800px; */
+
+   /* display: flex; */
+
+   
+
+}
+
+
+.imagediv{
+
+    height: 90px;
+
+    width: 64px;
+
+    margin: 0px 0px 12px;
+
+    position: relative;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    width: 100%;
+
+    min-height: 40px;
+
+
+
+}
+
+
+#spanclass{
+
+    width: 90px;
+
+    height: 16.8px;
+
+    text-align: center;
+
+}
+
+
+/* span{
+
+    min-width: 90px;
+
+    padding: 16px;
+
+    cursor: pointer;
+
+    position: relative;
+
+    box-sizing: content-box;
+
+} */
+
+
+
+.best_of_ele{
+
+    background-color: white;
+
+    width: 100%;
+
+    min-height: 60px;
+
+    padding: 16px;
+
+    /* text-align: center; */
+
+}
+
+
+.elecontainer{
+
+    width: 97%;
+
+    margin: 20px;
+
+    min-height: 260px;
+
+    padding: 0px 4px 12px;
+
+    display: flex;
+
+    flex-direction: column;
+
+   
+
+}
+
+
+.elecontainer1 .elebox{
+
+   
+
+    position: relative;
+
+
+    margin-top: 3px;
+
+    /* margin-bottom: 3px; */
+
+    width: 220px;
+
+    height: 260px;
+
+    border: 1px solid black;
+
+    border-radius: 4px;
+
+    overflow: hidden;
+
+    /* display: flex; */
+
+   
+
+}
+
+
+.best_of_ele{
+
+    width: 100%;
+
+    height: 50px;
+
+    /* margin-left: 100px; */
+
+    /* gap: 100px; */
+
+}
+
+
+.elecontainer1{
+
+    height: 270px;
+
+    display: flex;
+
+    /* flex-direction: row; */
+
+    justify-content: space-around;
+
+    background-color: white;
+
+    /* margin: 50px; */
+
+    /* padding: 20px; */
+
+}
+
+
+.elebox a img{
+
+    /* margin: 22px; */
+
+    width: 197px;
+
+    height: 186.4px;
+
+    /* align-items: center; */
+
+    margin-left: 7px;
+
+    margin-top: 10px;
+
+    transition: transform 0.3s ease, filter 0.3s ease; /* Add transition for transform and filter */
+
+}
+
+
+.elebox a:hover img {
+
+    transform: scale(1.1); /* Scale up the image on hover */
+
+    /* filter: brightness(0.8);
+
+    Optionally darken the image on hover */
+
+}
+
+
+.elebox a div{
+
+    margin-top: 20px;
+
+    font-size: 21px;
+
+    text-align: center;
+
+    /* height: 20px; */
+
+}
+
+
+.elebox a{
+
+    padding: 4.5px;
+
+}
+
+
+.footer-div{
+
+    width: 100%;
+
+    height: 280px;
+
+    background-color: #111112;
+
+    color: white;
+
+    display: flex;
+
+    padding: 40px 60px 0px;
+
+    justify-content: space-between;
+
+    /* overflow-x: none; */
+
+}
+
+
+.foot-about{
+
+    width: 150px;
+
+    height: 210px;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+.foot-about a{
+
+    color: white;
+
+    font-size: 0.85rem;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 4px;
+
+    /* display: block; */
+
+}
+
+
+.foot-about p{
+
+    font-size: 15px;
+
+    margin-bottom: 12px;
+
+    color: #878787;
+
+}
+
+
+.mail-foot{
+
+    margin-bottom: 12px;
+
+}
+
+
+.mail-foot{
+
+    color: #878787;
+
+    font-size: 15px;
+
+    width: 290px;
+
+}
+
+
+.Mail-us{
+
+    height: 205px;
+
+    border-left: 1px  solid #878787 ;
+
+    padding: 0px 0px 0px 32px;
+
+   
+
+}
+
+
+.social{
+
+    margin-top: 10px;
+
+
+}
+
+
+.social-icon i{
+
+    color: #878787;
+
+    /* margin-left: 4px; */
+
+    padding-left: 5px;
+
+   
+
+}
+
+
+.Mail-us1 .mail-foot p{
+
+    font-size: 15px;
+
+    margin-bottom: 12px;
+
+}
+
+
+.copyright{
+
+    height: 68px;
+
+    background-color: #111112;
+
+    border-top: 1px  solid #878787 ;
+
+    display: flex;
+
+    color: white;
+
+    justify-content: center;
+
+    align-items: center;
+
+    /* margin-left: 40px; */
+
+}
+
+
+.copyright span{
+
+    margin-left: 80px;
+
+}
+
+
+/* .copyright span i{
+
+
+    margin-right: 2px;
+
+} */
